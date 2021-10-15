@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/gimmemoney.wav-1810f4ff28926a635550d2c52411751e.sample"
+
+[deps]
+
+source_file="res://Assets/sounds/gimmemoney.wav"
+dest_files=[ "res://.import/gimmemoney.wav-1810f4ff28926a635550d2c52411751e.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

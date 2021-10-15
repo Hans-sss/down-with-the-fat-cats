@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Prepare For Battle LOOP.wav-2188df4e00043e5d43129a6c48ba50ae.sample"
+
+[deps]
+
+source_file="res://Assets/sounds/8 bit Action Music Pack/8 bit Action Music Pack/WAV/Prepare For Battle LOOP.wav"
+dest_files=[ "res://.import/Prepare For Battle LOOP.wav-2188df4e00043e5d43129a6c48ba50ae.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=true
+compress/mode=0
