@@ -166,9 +166,11 @@ func _on_Area2D_area_entered(area):
 #		villager = null
 		
 func _on_Villager_area_exited(area):
+	print("leave")
 	villager = null
 
 func _on_GateKeeper_area_exited(area):
+	print("leave")
 	gatekeeper = null
 	
 		

@@ -133,4 +133,7 @@ __meta__ = {
 [node name="Coin2" parent="." instance=ExtResource( 19 )]
 position = Vector2( 775.773, 236.39 )
 
+[connection signal="area_exited" from="Villager" to="Player" method="_on_Villager_area_exited"]
+[connection signal="area_exited" from="Villager2" to="Player" method="_on_Villager_area_exited"]
+[connection signal="area_exited" from="Villager3" to="Player" method="_on_Villager_area_exited"]
 [connection signal="coin_collected" from="Coin2" to="." method="_on_Coin_coin_collected"]

@@ -756,6 +756,7 @@ position = Vector2( 7525, 1091.82 )
 [connection signal="coin_collected" from="Coin14" to="." method="_on_Coin_coin_collected"]
 [connection signal="coin_collected" from="Coin5" to="." method="_on_Coin_coin_collected"]
 [connection signal="coin_collected" from="Coin6" to="." method="_on_Coin_coin_collected"]
+[connection signal="area_exited" from="GateKeeper" to="Player" method="_on_GateKeeper_area_exited"]
 [connection signal="body_entered" from="AreaTrigger" to="." method="_on_AreaTrigger_body_entered"]
 [connection signal="body_entered" from="AreaTrigger" to="AreaTrigger" method="_on_AreaTrigger_body_entered"]
 [connection signal="body_entered" from="AreaTrigger2" to="." method="_on_AreaTrigger_body_entered"]

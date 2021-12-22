@@ -276,6 +276,7 @@ __meta__ = {
 
 [node name="aw" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource( 20 )
+volume_db = -5.0
 max_distance = 2e+06
 attenuation = 5.5008e-05
 
@@ -336,3 +337,4 @@ __meta__ = {
 [connection signal="coin_collected" from="Coin9" to="." method="_on_Coin_coin_collected"]
 [connection signal="body_entered" from="AreaTrigger" to="." method="_on_AreaTrigger_body_entered"]
 [connection signal="body_entered" from="AreaTrigger" to="AreaTrigger" method="_on_AreaTrigger_body_entered"]
+[connection signal="area_exited" from="GateKeeper" to="Player" method="_on_GateKeeper_area_exited"]
