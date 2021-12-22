@@ -81,19 +81,13 @@ position = Vector2( 1915.6, 118.243 )
 scale = Vector2( 0.580984, 0.597894 )
 texture = ExtResource( 10 )
 
-[node name="Villager" parent="." groups=[
-"Villager",
-] instance=ExtResource( 11 )]
+[node name="Villager" parent="." groups=["Villager"] instance=ExtResource( 11 )]
 position = Vector2( 2020.79, 176.591 )
 
-[node name="Villager2" parent="." groups=[
-"Villager",
-] instance=ExtResource( 11 )]
+[node name="Villager2" parent="." groups=["Villager"] instance=ExtResource( 11 )]
 position = Vector2( 1553.98, 208.457 )
 
-[node name="Villager3" parent="." groups=[
-"Villager",
-] instance=ExtResource( 11 )]
+[node name="Villager3" parent="." groups=["Villager"] instance=ExtResource( 11 )]
 position = Vector2( 1055.89, 240.482 )
 
 [node name="Player" parent="." instance=ExtResource( 2 )]
@@ -124,8 +118,8 @@ margin_left = 878.072
 margin_top = 278.679
 margin_right = 1042.07
 margin_bottom = 365.679
-custom_fonts/font = ExtResource( 18 )
 custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = ExtResource( 18 )
 text = "Give All Your Coins
 ToThe Villagers
 To Finish The Game

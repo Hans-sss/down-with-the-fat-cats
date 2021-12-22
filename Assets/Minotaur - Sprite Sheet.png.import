@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/vector_backgrounds.svg-2d9f4ee173f384890056bcc67f59c462.stex"
+path="res://.import/Minotaur - Sprite Sheet.png-ca5c183e95b5660a108e6aa3c308bbb8.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Abstractplatformer/Vector/vector_backgrounds.svg"
-dest_files=[ "res://.import/vector_backgrounds.svg-2d9f4ee173f384890056bcc67f59c462.stex" ]
+source_file="res://Assets/Minotaur - Sprite Sheet.png"
+dest_files=[ "res://.import/Minotaur - Sprite Sheet.png-ca5c183e95b5660a108e6aa3c308bbb8.stex" ]
 
 [params]
 
@@ -20,7 +20,7 @@ compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=true
+flags/filter=false
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2

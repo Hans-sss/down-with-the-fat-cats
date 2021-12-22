@@ -265,8 +265,8 @@ margin_left = 46.0331
 margin_top = 78.3594
 margin_right = 335.033
 margin_bottom = 179.359
-custom_fonts/font = ExtResource( 19 )
 custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = ExtResource( 19 )
 text = "LOW INCOME
 VILLAGE"
 align = 1

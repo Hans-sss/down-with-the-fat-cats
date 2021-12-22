@@ -295,8 +295,8 @@ margin_left = 11.3849
 margin_top = 79.0665
 margin_right = 379.385
 margin_bottom = 180.067
-custom_fonts/font = ExtResource( 21 )
 custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = ExtResource( 21 )
 text = "MIDDLE INCOME
 TOWN"
 align = 1
