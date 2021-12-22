@@ -58,8 +58,8 @@ custom_constants/separation = 50
 [node name="LinkButton" type="LinkButton" parent="Container/HBoxContainer/VBoxContainer/VBoxContainer"]
 margin_right = 855.0
 margin_bottom = 49.0
-custom_fonts/font = ExtResource( 3 )
 custom_colors/font_color = Color( 0.992157, 1, 0, 1 )
+custom_fonts/font = ExtResource( 3 )
 text = "New Game"
 script = ExtResource( 4 )
 scene_to_load = "Start"
@@ -68,8 +68,8 @@ scene_to_load = "Start"
 margin_top = 99.0
 margin_right = 855.0
 margin_bottom = 148.0
-custom_fonts/font = ExtResource( 3 )
 custom_colors/font_color = Color( 1, 0, 0, 1 )
+custom_fonts/font = ExtResource( 3 )
 text = "Exit Game"
 script = ExtResource( 5 )
 __meta__ = {
@@ -82,7 +82,7 @@ margin_right = 855.0
 margin_bottom = 592.0
 rect_pivot_offset = Vector2( -727.131, -24.4556 )
 custom_fonts/font = ExtResource( 3 )
-text = "P.S. Don't Full Screen The Game
+text = "You can now fullscreen the game!!
 "
 
 [node name="CenterContainer" type="CenterContainer" parent="Container/HBoxContainer"]

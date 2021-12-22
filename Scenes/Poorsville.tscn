@@ -265,8 +265,8 @@ margin_left = 46.0331
 margin_top = 78.3594
 margin_right = 335.033
 margin_bottom = 179.359
-custom_fonts/font = ExtResource( 19 )
 custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = ExtResource( 19 )
 text = "LOW INCOME
 VILLAGE"
 align = 1
@@ -276,6 +276,7 @@ __meta__ = {
 
 [node name="aw" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource( 20 )
+volume_db = -5.0
 max_distance = 2e+06
 attenuation = 5.5008e-05
 
@@ -336,3 +337,4 @@ __meta__ = {
 [connection signal="coin_collected" from="Coin9" to="." method="_on_Coin_coin_collected"]
 [connection signal="body_entered" from="AreaTrigger" to="." method="_on_AreaTrigger_body_entered"]
 [connection signal="body_entered" from="AreaTrigger" to="AreaTrigger" method="_on_AreaTrigger_body_entered"]
+[connection signal="area_exited" from="GateKeeper" to="Player" method="_on_GateKeeper_area_exited"]

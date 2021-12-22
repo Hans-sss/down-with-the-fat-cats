@@ -276,3 +276,4 @@ autoplay = true
 [connection signal="coin_collected" from="Coin8" to="." method="_on_Coin_coin_collected"]
 [connection signal="coin_collected" from="Coin9" to="." method="_on_Coin_coin_collected"]
 [connection signal="area_entered" from="GateKeeper" to="Player" method="_on_GateKeeper_area_entered"]
+[connection signal="area_exited" from="GateKeeper" to="Player" method="_on_GateKeeper_area_exited"]

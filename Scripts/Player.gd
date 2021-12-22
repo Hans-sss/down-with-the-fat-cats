@@ -31,6 +31,9 @@ var gatekeeper = null
 			
 func _ready():
 	Global.player = self
+	if self.get_parent().name == "PoorsvilleEnd":
+		print("abc")
+		$bullhead.visible = true
 	
 func _exit_tree():
 	Global.player = null
@@ -138,6 +141,9 @@ func _on_Area2D_area_entered(area):
 			emit_signal("kill") 
 			if "Evil" in area.name:
 				area.dead()
+	if area.is_in_group("Head"):
+		$bullhead.visible = true
+		area.queue_free()
 	if area.is_in_group("Villager"):
 		print("hehe this works")
 		villager = area
@@ -160,9 +166,11 @@ func _on_Area2D_area_entered(area):
 #		villager = null
 		
 func _on_Villager_area_exited(area):
+	print("leave")
 	villager = null
 
 func _on_GateKeeper_area_exited(area):
+	print("leave")
 	gatekeeper = null
 	
 		
